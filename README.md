@@ -4,7 +4,7 @@
 
 ## 1. top
 
-- top 명령어는 table of processes 의 약자로  CPU 와 메모리 이용에 관한 정보를 표시하는 수많은 유닉스 계열 운영 체제에서 볼 수 있는 작업 관리자 프로그램이다.
+- `top` 명령어는 table of processes 의 약자로  CPU 와 메모리 이용에 관한 정보를 표시하는 수많은 유닉스 계열 운영 체제에서 볼 수 있는 작업 관리자 프로그램이다.
 - 시스템의 상태를 전반적으로 가장 빠르게 파악 가능한 명령어 이다.
 - 옵션 없이 입력하면 interval 간격(기본 3초)으로 화면을 갱신하며 정보를 보여준다.
 
@@ -56,7 +56,7 @@
 
 ## 2. ps
 
-- ps는 process status 의 줄인말 이다.
+- `ps`는 process status 의 줄인말 이다.
 
 - 현재 실행중인 프로세스의 목록을 보는 명령어 이다.  _윈도우의 작업관리자 같은 것_
 
@@ -114,3 +114,9 @@ BSD : $ ps aux
 > [30 Useful ‘ps Command’ Examples for Linux Process Monitoring](https://www.tecmint.com/ps-command-examples-for-linux-process-monitoring/ "사진 출처")
 
 
+***
+
+
+## 3. jobs
+
+- 리눅스 명령어 `jobs`는 작업이 중지된 상태, 백그라운드로 진행 중인 작업 상태, 변경 되었지만 보고되지 않은 상태 등을 표시하는 명령어다.
