@@ -120,3 +120,30 @@ BSD : $ ps aux
 ## 3. jobs
 
 - 리눅스 명령어 `jobs`는 작업이 중지된 상태, 백그라운드로 진행 중인 작업 상태, 변경 되었지만 보고되지 않은 상태 등을 표시하는 명령어다.
+
+-`jotb` 명령어 사용법
+```
+jobs [옵션] [job ID]
+
+jobs -x command [args]
+```
+
+- jobs 옵션
+|옵션 |설명|
+|:---|:---|
+|-l | 프로세스 그룹 ID를 state 필드 앞에 출력|
+|-n | 프로세스 그룹 중에 대표 프로세스 ID를 출력|
+|-p | 각 프로세스 ID에 대해 한 행씩 출력|
+|command | 지정한 명령어를 실행|
+
+- `jobs' 로 알 수 있는 세션의 상태 값
+|상태|설명|
+|:---|:---|
+|Running |작업이 일시 중단되지 않았고 종료하지 않고 계속 진행 중임|
+|Done |작업이 완료되어 0을 반환하고 종료 했음을 의미|
+|Done(code) |작업이 정삭적으로 완료되었으며, 0이 아닌 코드를 반환 했음을 의미|
+|Stopped |작업이 일시 중단|
+|Stopped(SIGTSTP) SIGTSTP |신호가 작업을 일시 중단|
+|Stopped(SIGSTOP) SIGSTOP |신호가 작업을 일시 중단|
+|Stopped(SIGTTIN) SIGTTIN |신호가 작업을 일시 중단|
+|Stopped(SIGTTOU) SIGTTOU |신호가 작업을 일시 중단|
