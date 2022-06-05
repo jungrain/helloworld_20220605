@@ -1,4 +1,4 @@
-# #1.눅스 명령어 조사 (top, ps, jobs, kill)
+# #1.리눅스 명령어 조사 (top, ps, jobs, kill)
 
 ## 1. top
 
