@@ -46,3 +46,6 @@
 
 
 -  **주의 : 옵션에 따른 문자열 입력 시 대소문자는 반드시 구분해서 입력해야 함.**
+
+> 출처 :  [리눅스 top 정리 및 설명](https://zzsza.github.io/development/2018/07/18/linux-top/ "주요 내용 출처") , 
+> [리눅스 top 명령어 출력화면 및 사용법 설명](https://koromoon.blogspot.com/2020/09/top.html "사진 출처")
