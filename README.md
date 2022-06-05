@@ -75,7 +75,7 @@
 
 - ps 사용법
 
-```
+```bash
 $ ps [option]
 
 System V : $ ps -ef
@@ -122,7 +122,7 @@ BSD : $ ps aux
 - 리눅스 명령어 `jobs`는 작업이 중지된 상태, 백그라운드로 진행 중인 작업 상태, 변경 되었지만 보고되지 않은 상태 등을 표시하는 명령어다.
 
 -`jotb` 명령어 사용법
-```
+```bash
 jobs [옵션] [job ID]
 
 jobs -x command [args]
@@ -175,3 +175,28 @@ $ kill -l
 63) SIGRTMAX-1	64) SIGRTMAX
 
 ```
+
+- 주요 시그널
+
+
+|시그널|	영어|	설명|
+|:---|:---|:---|
+|1) SIGHUP	|Hang Up	|세션이 종료될 때 시스템이 내리는 시그널|
+|2) SIGINT|	Interrupt	|Ctrl + C, 종료 요청 시그널|
+|9) SIGKILL|	Kill	|강제 종료 시그널|
+|11) SIGSEGV|	Segment Violation|	메모리 침범이 일어날 때 시스템이 보내는 시그널|
+|15) SIGTERM	|Terminate	|기본 값, 종료 요청 시그널|
+|20) SIGTSTP	|Temporary Stop	Ctrl + Z| 일시 중지 요청 시그널|
+
+- 프로세스에 시그널 보내는 방법
+
+```bash
+$ kill [option] PID
+
+# 1234(PID) 프로세스 종료 
+$ kill -9 1234
+$ kill -SIGKILL 1234
+```
+
+---
+
