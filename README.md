@@ -58,7 +58,7 @@
 
 - ps는 process status 의 줄인말 이다.
 
-- 현재 실행중인 프로세스의 목록을 보는 명령어 이다. _윈도우의 작업관리자 같은 것_
+- 현재 실행중인 프로세스의 목록을 보는 명령어 이다.  _윈도우의 작업관리자 같은 것_
 
 - 옵션 표
 
@@ -71,6 +71,16 @@
 |`U`| 프로세스 소유자의 이름, CPU 사용량, 메모리 사용량 등 상세 정보를 출력|
 |`A`| 터미널에서 실행한 프로세스의 정보를 출력|
 |`X`| 실행 중인 모든 프로세스의 정보를 출력|
+
+
+- ps 사용법
+
+```
+$ ps [option]
+
+System V : $ ps -ef
+BSD : $ ps aux
+```
 
 - *ps로 알 수 있는 정보들!*
 
@@ -99,7 +109,8 @@
 
 ![List-Processes-in-Standard-Format](https://user-images.githubusercontent.com/106908417/172047215-445fcd3a-14d3-4ca3-9e95-fbe4b8d9b74c.png)
 
-> 출처 :  [ps 프로세스 명령어 완벽정리](https://jhnyang.tistory.com/268/ "주요 내용 출처") , 
+> 출처 :  [ps 프로세스 명령어 완벽정리](https://jhnyang.tistory.com/268/ "주요 내용 출처") ,
+>  [리눅스의 필수!! ps 명령어 총정리](https://newstars.cloud/468 "주요 내용 출처") ,
 > [30 Useful ‘ps Command’ Examples for Linux Process Monitoring](https://www.tecmint.com/ps-command-examples-for-linux-process-monitoring/ "사진 출처")
 
 
