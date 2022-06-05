@@ -148,3 +148,6 @@ jobs -x command [args]
 |Stopped(SIGSTOP) SIGSTOP |신호가 작업을 일시 중단|
 |Stopped(SIGTTIN) SIGTTIN |신호가 작업을 일시 중단|
 |Stopped(SIGTTOU) SIGTTOU |신호가 작업을 일시 중단|
+
+> 출처 :  [jobs - 현재 세션의 작업 상태를 출력]([https://jhnyang.tistory.com/268](https://shaeod.tistory.com/968)/ "주요 내용 출처") 
+
