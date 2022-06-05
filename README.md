@@ -95,3 +95,11 @@
 |NI  |   nice 우선순위 번호 |
 
 
+-ps 명령어 사용 예시
+
+![List-Processes-in-Standard-Format](https://user-images.githubusercontent.com/106908417/172047215-445fcd3a-14d3-4ca3-9e95-fbe4b8d9b74c.png)
+
+> 출처 :  [ps 프로세스 명령어 완벽정리](https://jhnyang.tistory.com/268/ "주요 내용 출처") , 
+> [30 Useful ‘ps Command’ Examples for Linux Process Monitoring](https://www.tecmint.com/ps-command-examples-for-linux-process-monitoring/ "사진 출처")
+
+
