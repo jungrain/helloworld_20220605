@@ -197,6 +197,6 @@ $ kill [option] PID
 $ kill -9 1234
 $ kill -SIGKILL 1234
 ```
-
+> 출처 :  [리눅스 kill 명령어](https://frogand.tistory.com/69 "주요 내용 출처")
 ---
 
